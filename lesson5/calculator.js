@@ -4,7 +4,7 @@ document.getElementById('calculate').addEventListener('click', function() {
 
     var count = parseInt(document.getElementById('quantity').value);
 
-    if (typedef count!=='number' || Number.isNaN(count) || count <= 0) {
+    if (typeof count!=='number' || Number.isNaN(count) || count <= 0) {
         document.getElementById('result').textContent = 'Введите целое число больше нуля для количества товара!';
         return; 
     }
