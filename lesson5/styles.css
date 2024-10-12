@@ -1,0 +1,30 @@
+
+body {
+    display: flex;                    
+    justify-content: center;          
+    align-items: center;              
+    background-color: #ef9df5;
+    margin: 0;
+    height: 100%;
+}
+
+.calc {
+    border: 1px solid black;
+    margin: 30px;        
+    padding: 20px;                   
+    border-radius: 10px;              
+    background-color: rgb(161, 144, 165);          
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+label, select, input, button {
+    margin: auto;
+    display: block;
+}
+button{
+    width:100%;
+}
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
