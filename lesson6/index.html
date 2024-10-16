@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Задание6</title>
+  <script defer src="calculator.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="form">
+    <label id="result"></label>
+    <label for="amount">Количество билетов:</label>
+    <input id="amount" name="amount" min="1" value="1"
+     placeholder="Введите количество билетов" required type="number">
+
+    <label>Выберите тип услуги</label>
+    <div id="radios">
+      <label><input type="radio" name="optionsProduct" value="option1">Метро</label>
+      <label><input type="radio" name="optionsProduct" value="option2">Поезд</label>
+      <label><input type="radio" name="optionsProduct" value="option3">Самолёт</label>
+    </div>
+
+  </form>
+</body>
+</html>

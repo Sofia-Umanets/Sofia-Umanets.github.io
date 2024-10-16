@@ -1,0 +1,49 @@
+body {  
+    display: flex;
+    justify-content: center;               
+    background-color: #ef9df5;  
+    margin: 0;  
+    height: 100%;  
+}  
+
+form {  
+    width: 90%; 
+    max-width: 400px; 
+    border: 1px solid black;  
+    margin: 30px;          
+    padding: 20px;                     
+    border-radius: 10px;                
+    background-color: rgb(161, 144, 165);            
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  
+    text-align: center;  
+}  
+
+label {  
+    margin: 10px; 
+    display: flex;   
+    justify-content: flex-start; 
+    align-items: center; 
+}    
+
+input[type="radio"] {
+    margin-right: 10px; 
+}
+
+input[type="number"], select, button {  
+    display: block;  
+    margin: 10px auto; 
+    padding: 8px; 
+    width: 90%; 
+    border-radius: 5px;
+    border: 2px solid #4e4a4a; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}  
+
+#result {  
+    margin-top: 10px;  
+    font-weight: bold;  
+    text-align: center;  
+    font-size: xx-large;  
+}
+
+
