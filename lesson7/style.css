@@ -1,0 +1,35 @@
+body {
+    background-image: url(images/bg.jpg);
+    background-color:rgba(13, 49, 10, 0.8);
+}
+.slider {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgb(100, 146, 108);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.slider .slick-slide {
+    margin: 10px;
+}
+.slider__img {
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 ;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #141313; 
+}
+.slick-dots li.slick-active button {
+    background: #246339; 
+}
+@media screen and (min-device-width: 800px) {
+    .slider__img {
+        max-width: 400px;
+    }
+}
