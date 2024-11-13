@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Форма обратной связи</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+  <button id="openModal">
+    <span>Открыть форму обратной связи</span>
+  </button>
+</div>
+
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModal">&times;</span>
+    <h2 class="text">Форма обратной связи</h2>
+    <form id="form" class="formcarryForm" action="https://formcarry.com/s/w92bSg2aFbI"
+          method="POST" enctype="multipart/form-data">
+      <input id="fullName" placeholder="ФИО" name="fullName" required type="text">
+      <input id="email" placeholder="Email" name="email" required type="email">
+      <input id="phone" placeholder="Телефон" name="phone" required type="tel">
+      <input id="organization" placeholder="Организация" name="organization" type="text">
+      <textarea id="message" placeholder="Сообщение" name="message" required></textarea>
+      <label>
+        <input id="consent" class="text" required type="checkbox">
+        Я согласен с политикой обработки персональных данных
+      </label>
+      <button type="submit">Отправить</button>
+    </form>
+    <div id="responseMessage"></div>
+  </div>
+</div>
+
+</body>
+</html>
