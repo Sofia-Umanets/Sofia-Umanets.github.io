@@ -1,0 +1,144 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+  }
+  
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 90%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #6466d1;
+  }
+  
+  .photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .contacts {
+    margin: 15px 0;
+  }
+  
+  .contacts p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .contacts a {
+    color: #e6e6e9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contacts a:hover {
+    color: #6767f1;
+  }
+  
+  .icon {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+  }
+  
+.footer-body {
+    margin-top: 20px;
+  }
+  
+  .sns-wrapper {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sns a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  }
+  
+  .sns a:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  .sns.facebook a {
+    background: #3b5998;
+  }
+  
+  .sns.facebook a:hover {
+    background: #2d4373; 
+  }
+  
+  .sns.vk a {
+    background: #4c75a3;
+  }
+  
+  .sns.vk a:hover {
+    background: #3a5e81; 
+  }
+  
+  .sns.telegram a {
+    background: #0088cc;
+  }
+  
+  .sns.telegram a:hover {
+    background: #006699; 
+  }
+  
+  .sns.youtube a {
+    background: #ff0000;
+  }
+  
+  .sns.youtube a:hover {
+    background: #cc0000; 
+  }
+  
+  .sns img {
+    width: 60%;
+    height: 60%; 
+    object-fit: contain; 
+  }
+  
