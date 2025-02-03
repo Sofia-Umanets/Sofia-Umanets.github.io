@@ -1,1 +1,0 @@
-# Umanets.githab.io
